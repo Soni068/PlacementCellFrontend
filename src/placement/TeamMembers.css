@@ -1,0 +1,89 @@
+/* Add some padding and spacing around the form */
+.team-member-form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+     max-height: 80vh; /* Set the max height of the table */
+  overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  /* Form header */
+  .team-member-form h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form input fields */
+  .team-member-form div {
+    margin-bottom: 15px;
+  }
+  
+  .team-member-form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .team-member-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  .team-member-form input:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none;
+  }
+  
+  /* Button styling */
+  .team-member-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .team-member-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive design: If the screen size is smaller than 768px, make the form full width */
+  @media (max-width: 768px) {
+    .team-member-form {
+      width: 90%;
+    }
+  }
+  
+  /* Style for the form error message (in case of invalid inputs) */
+  .team-member-form .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  /* Success message styling */
+.success-message {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  

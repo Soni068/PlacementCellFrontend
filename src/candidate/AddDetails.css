@@ -1,0 +1,22 @@
+.right-content{
+    width: 300px; /* Width of the box */
+  padding: 20px; /* Padding inside the box */
+  border: 1px solid #ddd; /* Border around the box */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Background color of the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin-left: 250px;
+  
+}
+.right-content a {
+    display: block;
+    text-decoration: none; /* Remove underline */
+    color: Black; /* Blue color */
+
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .right-content a:hover {
+    background-color: Black; /* Light background when hovered */
+    color: white; /* Change text color to black on hover */
+  }

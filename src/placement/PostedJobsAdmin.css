@@ -1,0 +1,5 @@
+.posted-jobs-list{
+    
+        max-height: 600px; /* Set the max height of the table */
+        overflow-y: auto; /* Enable vertical scrolling */
+    }

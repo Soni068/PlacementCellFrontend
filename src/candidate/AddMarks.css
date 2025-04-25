@@ -1,0 +1,60 @@
+/* AddMarks.css */
+
+/* Styling the container of the form */
+.form-7 {
+    max-width: 60%;
+   /* margin-left: 60px;*/
+    
+    border-radius: 8px;
+    background-color: #f4f4f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling form labels */
+  .form-7 label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styling input fields */
+  .form-7 input {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the button */
+  .form-7 button {
+    width: 60%;
+    padding: 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-7 button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Adding some spacing and font styling */
+  .form-7 div {
+    margin-bottom: 20px;
+  }
+  
+  .form-7 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  

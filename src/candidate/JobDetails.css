@@ -1,0 +1,73 @@
+.job-details-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 250px;
+  }
+  
+  .job-details-container h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .job-details-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .job-details-container ul {
+    list-style-type: dotted;
+    padding-left: 0;
+    margin-left: 500px;
+  }
+  
+  /*.job-details-container ul li {
+    background-color: #eef2f5;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+  }*/
+  
+  .apply-button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .apply-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .apply-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .job-button{
+    width: 10%;
+    padding: 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+     margin-left: 470px;
+  }
+
+  .job-button:hover{
+    background-color: #2f8b34;
+  }
+
+  .job-button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }

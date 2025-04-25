@@ -1,0 +1,33 @@
+/* Students.css */
+
+/* Container for the job posts button */
+.job-posts-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Styling for the job posts button */
+.btn-3 {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.job-count-circle {
+    position: absolute;
+    top: 16px;   /* Position it above the button */
+    right: -10px; /* Adjust the position so it's at the top-right corner of the button */
+    background-color: red;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;  /* Make it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}

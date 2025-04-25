@@ -1,0 +1,66 @@
+
+  
+  
+  
+  /* Sidebar styles */
+  .dashboard-container {
+    display: flex;
+    height: 100vh; /* Ensure it takes up full screen height */
+  }
+  
+  .sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #9cacbb;
+    color: black;
+    position:absolute; /* Fixed on the left side */
+    /* Fixed on the left side */
+    
+  }
+  
+  .sidebar h2 {
+    color:black;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    margin-bottom: -10px;
+    transition: background-color 0.3s ease, width 0.3s ease;
+   /* Full height for each link */
+  border-radius: 5px; /* Optional rounded corner*/
+  }
+  
+  .sidebar ul li a:hover {
+   
+    background-color: #34495e;
+    
+    color: white;
+  }
+  .sidebar ul li a.active {
+    background-color: #34495e;
+    color: white;
+  }
+  
+  /* Content area styles */
+  .content {
+    /*flex-grow: 1;*/
+    margin-left: 250px; /* Offset the content to the right of the sidebar */
+  padding: 20px;
+  background-color: #ecf0f1;
+  height: 100vh;
+  overflow-y: auto;
+  }

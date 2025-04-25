@@ -1,0 +1,77 @@
+/* Style for the table */
+.table-container {
+  
+  
+  max-height: 80vh; /* Set the max height of the table */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+table {
+    width: 70%;
+    /*margin: 20px auto;*/
+      margin-left: 265px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Header styling */
+  th {
+    background-color: #4a8dc7; /* Blue background */
+    color: white; /* White text */
+    font-weight: bold;
+  }
+  
+  /* Row hover effect */
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Button style */
+  .action-btn {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .action-btn2 {
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .action-btn2:hover {
+    background-color: rgb(187, 45, 45);
+  }
+  
+  /* Style for separating rows and columns */
+  td, th {
+    border-right: 1px solid #ddd; /* Border between columns */
+  }
+  
+  tr:last-child td {
+    border-bottom: 1px solid #ddd; /* Border for the last row */
+  }
+  
+  /* Remove the last border on the last column */
+  th:last-child, td:last-child {
+    border-right: none;
+  }
+  

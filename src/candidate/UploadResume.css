@@ -1,0 +1,21 @@
+.upload-resume {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .upload-resume input {
+    margin-bottom: 10px;
+  }
+  
+  .upload-resume button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .upload-resume button:hover {
+    background-color: #45a049;
+  }
+  

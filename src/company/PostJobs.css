@@ -1,0 +1,153 @@
+/* Centered container with enhanced shadow and padding */
+.post-jobs-container {
+    max-width: 700px;
+   margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    max-height: 90vh; /* Set a maximum height for the container */
+    overflow-y: auto;
+    
+}
+
+/* Title Styling */
+.post-jobs-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Company Name Styling */
+.company-name {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 8px;
+}
+
+/* Form Layout */
+.post-jobs-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+.post-jobs-form label {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Input Fields */
+.post-jobs-form input,
+.post-jobs-form textarea,
+.post-jobs-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fafafa;
+}
+
+/* Description Box */
+.post-jobs-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* CGPA Criteria Styling */
+.cgpa-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds space between UG & PG CGPA fields */
+}
+
+.cgpa-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fafafa;
+}
+
+/* Company Website Link Styling */
+.post-jobs-form input[type="url"] {
+    border: 1px solid #007bff;
+    background-color: #f9f9f9;
+}
+
+.post-jobs-form input[type="url"]:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+/* Submit Button */
+.post-jobs-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.post-jobs-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.03);
+}
+
+.courses-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  /* Style each course label and checkbox container */
+  .courses-container div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Style the checkbox itself */
+  .courses-container input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #4CAF50; /* Green accent for the checkbox */
+    border-radius: 4px; /* Slightly rounded corners for the checkbox */
+    cursor: pointer; /* Change cursor to pointer for better UX */
+  }
+  
+  /* Style the labels of the courses */
+  .courses-container label {
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    cursor: pointer; /* Make the label clickable */
+    transition: color 0.2s ease; /* Add transition for hover effect */
+  }
+
+  .courses-container label:hover {
+    color: #4CAF50; /* Change text color to green on hover */
+  }
+  
+  /* Style the entire courses section label */
+  label[for="courses"] {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }

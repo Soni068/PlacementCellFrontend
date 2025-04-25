@@ -1,0 +1,187 @@
+/* Fullscreen Container */
+.student-home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 140vh; /* Ensure content is not cut off */
+  width: 100vw;
+  padding: 20px;
+  position: relative;
+  background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+  overflow-y: auto; /* Enable scrolling if needed */
+}
+
+
+/* Form Styling */
+.form-container-1 {
+  width: 485px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.3); /* Glassmorphism effect */
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Form Hover Effect */
+/*.form-container-1:hover {
+  transform: scale(1.05);
+}*/
+
+/* Title */
+.form-container-1 h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input Fields */
+.form-container-1 div {
+  margin-bottom: 30px;
+}
+
+.form-container-1 label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.form-container-1 input,
+.form-container-1 select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input Focus Effect */
+.form-container-1 input:focus,
+.form-container-1 select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+  outline: none;
+}
+
+/* Submit Button */
+.form-container-1 button {
+  width: 100%;
+  padding: 14px;
+  background: #007bff; /* Solid blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Button Hover & Click Effects */
+.form-container-1 button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
+
+.form-container-1 button:active {
+  transform: scale(0.97);
+}
+
+/* Image Container */
+.image-container {
+  position: absolute;
+  margin-top: 30px;
+  right: 5%;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+/* Enlarged Image */
+.login-image {
+  width: 750px; /* Increased size */
+  height: 550px;
+}
+
+
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, sans-serif; /* Set font to Arial */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+.login-imag {
+  width: 750px; /* Increased size */
+  height: 550px;
+}
+
+/* Text Overlay on Image */
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, sans-serif; /* Set font to Arial */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .image-container {
+    right: 2%;
+  }
+
+  .login-image {
+    width: 500px;
+  }
+
+  .form-container-1 {
+    width: 400px;
+    padding: 30px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .student-home-container {
+    flex-direction: column;
+  }
+
+  .image-container {
+    position: relative;
+    right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .login-image {
+    width: 350px;
+  }
+
+  .image-text {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  
+
+  
+}

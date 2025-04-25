@@ -1,0 +1,85 @@
+.job-application-container1 {
+    padding: 20px;
+    margin-left: 250px;
+}
+
+.job-cards-container1 {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; /* Align cards to the left */
+    overflow-x: auto;  /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical overflow */
+    padding-bottom: 10px; /* Optional: Add space for scroll */
+}
+
+.job-card1 {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    flex-shrink: 0; /* Prevent the job cards from shrinking */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 300px; /* Set a fixed height for better centering */
+    
+}
+
+.job-card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+
+.job-card1 h3 {
+    font-size: 1.5rem; /* Increase font size if needed */
+    margin: 10px 0;
+    text-align: center;
+    
+    color: #333; /* Make the job title color stand out */
+    flex-grow: 1; /* Make sure title takes up available space */
+}
+
+.job-card1 p {
+    margin: 5px 0;
+    color: #555;
+    font-weight: bold;
+    text-align: center;
+}
+
+.job-card-buttons1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-top: 15px;
+}
+
+.apply-btn,
+.details-btn1 {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.apply-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.details-btn1 {
+    background-color: #007bff;
+    color: white;
+}
+
+.apply-btn:hover {
+    background-color: #218838;
+}
+
+.details-btn1:hover {
+    background-color: #0056b3;
+}

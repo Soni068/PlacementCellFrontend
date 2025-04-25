@@ -1,0 +1,61 @@
+.btn-1{
+    background-color: #3498db; /* Button color */
+    margin-left: 300px;
+    margin-top: 30px;
+    color: white;  /* White text */
+    font-size: 16px;  /* Font size */
+    padding: 10px 20px;  /* Padding */
+    border: none;  /* No border */
+    border-radius: 5px;  /* Rounded corners */
+    cursor: pointer;  /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; 
+    height: 100px;
+    width:200px; /* Smooth transitions */
+  }
+  
+  .btn-2{
+    background-color: green; /* Button color */
+    margin-left: 100px;
+    margin-top: 30px;
+    color: white;  /* White text */
+    font-size: 16px;  /* Font size */
+    padding: 10px 20px;  /* Padding */
+    border: none;  /* No border */
+    border-radius: 5px;  /* Rounded corners */
+    cursor: pointer;  /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; 
+    height: 100px;
+    width:200px; /* Smooth transitions */
+  }
+
+  .btn-3{
+    background-color: red; /* Button color */
+    margin-left: 100px;
+    margin-top: 30px;
+    color: white;  /* White text */
+    font-size: 16px;  /* Font size */
+    padding: 10px 20px;  /* Padding */
+    border: none;  /* No border */
+    border-radius: 5px;  /* Rounded corners */
+    cursor: pointer;  /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; 
+    height: 100px;
+    width:200px; /* Smooth transitions */
+  }
+  
+  
+
+  
+  button:hover {
+    background-color: #2980b9;  /* Darker blue on hover */
+    transform: scale(1.05);  /* Slightly enlarge on hover */
+  }
+  
+  button:focus {
+    outline: none;  /* Remove focus outline */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);  /* Light shadow on focus */
+  }
+  
+  button:active {
+    background-color: #1f6f9f;  /* Even darker blue when pressed */
+  }

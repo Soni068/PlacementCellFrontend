@@ -1,0 +1,98 @@
+* General Styling */
+.homepage {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Hero Section with Background Image */
+.hero {
+    position: relative;
+    background: url('./group-photo.jpg') center/cover no-repeat fixed;
+    min-height: 100vh; /* Full screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hero Content Styling */
+.hero .hero-content {
+    background: rgba(0, 0, 0, 0.3); /* Light overlay for text readability */
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Heading and Text Styling */
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background: #f8f8f8;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+/* Call to Action */
+.cta {
+    padding: 50px 20px;
+    background: #007bff;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+    color: white;
+}

@@ -45,6 +45,8 @@ import AppliedCandidates from './company/AppliedCandidates'
 import RecruiterDetails from './placement/RecruiterDetails'
 import CompanyProfile from './company/CompanyProfile'
 import Feedback from './placement/Feedback'
+import CompanySetting from './company/CompanySetting'
+import CompanyChangePassword from './company/CompanyChangePassword';
 
 
 
@@ -103,6 +105,8 @@ function App() {
             <Route path="/company/candidates/:jobId" element={<AppliedCandidates />}></Route>
             <Route path="/ForgotPassword/:userType" element={<ForgotPassword />}/>
             <Route path="/reset-password/:role" element={<ResetPassword />} />
+            <Route path="/company/CompanySetting" element={<CompanySetting />}></Route>
+            <Route path="/company/change-password" element={<CompanyChangePassword />} />
             
           </Routes>
         

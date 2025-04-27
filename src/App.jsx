@@ -47,6 +47,8 @@ import CompanyProfile from './company/CompanyProfile'
 import Feedback from './placement/Feedback'
 import CompanySetting from './company/CompanySetting'
 import CompanyChangePassword from './company/CompanyChangePassword';
+import StudentSetting from './candidate/StudentSetting'
+import StudentChangePassword from './candidate/StudentChangePassword';
 
 
 
@@ -107,6 +109,9 @@ function App() {
             <Route path="/reset-password/:role" element={<ResetPassword />} />
             <Route path="/company/CompanySetting" element={<CompanySetting />}></Route>
             <Route path="/company/change-password" element={<CompanyChangePassword />} />
+            <Route path="/candidate/StudentSetting" element={<StudentSetting />} />
+            <Route path="/candidate/change-password" element={<StudentChangePassword />} />
+
             
           </Routes>
         

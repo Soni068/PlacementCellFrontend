@@ -50,6 +50,7 @@ import CompanyChangePassword from './company/CompanyChangePassword';
 import StudentSetting from './candidate/StudentSetting'
 import StudentChangePassword from './candidate/StudentChangePassword';
 
+import AdminChangePassword from './placement/AdminChangePassword'
 
 
 
@@ -86,6 +87,7 @@ function App() {
             <Route path="/placement/JobDetailsPage/:jobId" element={<JobDetailsPage />}></Route>
 
             <Route path="placement/AdminSetting/TeamMembers" element={<TeamMember />}></Route>
+            <Route path="placement/AdminSetting/AdminChangePassword" element={<AdminChangePassword />}></Route>
             <Route path="placement/AdminSetting/ViewMembers" element={<ViewMembers />}></Route>
             <Route path="/StudentsHome/candidate/StudentDashboard" element={<StudentDashboard />}></Route>
             <Route path="/StudentsHome/candidate/Profile" element={<Profile />}></Route>
@@ -111,6 +113,8 @@ function App() {
             <Route path="/company/change-password" element={<CompanyChangePassword />} />
             <Route path="/candidate/StudentSetting" element={<StudentSetting />} />
             <Route path="/candidate/change-password" element={<StudentChangePassword />} />
+            
+            <Route path="/placement/AdminChangePassword" element={<AdminChangePassword />} />
 
             
           </Routes>

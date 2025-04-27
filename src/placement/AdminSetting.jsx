@@ -7,7 +7,7 @@ const AdminSetting = () => {
     <Layout>
         <Sidebar /><br/><br/><br/><br/><br/><br/>
         <div className='right-content' align={'center'}>
-            <a href="#">Change Password</a><hr/>
+            <a href="AdminSetting/AdminChangePassword">Change Password</a><hr/>
             <a href="AdminSetting/TeamMembers">Add Team Members</a><hr/>
             <a href="AdminSetting/ViewMembers">View Team Members</a>
         </div>
